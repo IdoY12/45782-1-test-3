@@ -1,0 +1,45 @@
+.AddMeeting {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 25px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    font-family: Arial, sans-serif;
+}
+
+.AddMeeting form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.AddMeeting select,
+.AddMeeting input,
+.AddMeeting button {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #d0d0d0;
+    font-size: 15px;
+    transition: 0.2s;
+}
+
+.AddMeeting select:focus,
+.AddMeeting input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 6px rgba(0,123,255,0.4);
+}
+
+.AddMeeting button {
+    background: #007bff;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+.AddMeeting button:hover {
+    background: #005fcc;
+    box-shadow: 0 2px 10px rgba(0,123,255,0.3);
+}

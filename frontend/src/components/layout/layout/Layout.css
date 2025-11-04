@@ -1,0 +1,49 @@
+html,
+body,
+#root {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.Layout {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+
+    /* רקע כהה אלגנטי */
+    background: linear-gradient(160deg, #1e1e1e 0%, #121212 100%);
+    color: #f5f5f5;
+    font-family: "Segoe UI", sans-serif;
+}
+
+.Layout header {
+    grid-row: 1;
+    text-align: center;
+    padding: 1.5rem 0;
+    border-bottom: 1px solid #333;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.Layout main {
+    grid-row: 2;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2rem;
+    overflow-y: auto;
+}
+
+.Layout footer {
+    grid-row: 3;
+    text-align: center;
+    padding: 1rem 0;
+    border-top: 1px solid #333;
+    font-size: 0.9rem;
+    color: #ccc;
+}
+
+.Layout > * {
+    box-sizing: border-box;
+}

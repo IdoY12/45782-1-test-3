@@ -1,0 +1,63 @@
+.Meetings {
+  color: #e6e6e6;
+  font-family: "Inter", Arial, sans-serif;
+}
+
+.Meetings table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background: #1f1f1f; /* Dark but elegant */
+  border: 1px solid #3a7bd5;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.Meetings thead {
+  background: #3a7bd5; /* Blue header like GitHub dark theme */
+  color: white;
+}
+
+.Meetings th,
+.Meetings td {
+  padding: 12px;
+  border: 1px solid #3a7bd5;
+}
+
+.Meetings tr:nth-child(even) {
+  background: #262626; /* Soft dark */
+}
+
+.Meetings tr:nth-child(odd) {
+  background: #1f1f1f; /* Slightly different tone */
+}
+
+.Meetings tr:hover {
+  background: #2e3a4a; /* nice dark hover */
+}
+
+/* Input + button style for dark mode */
+.Meetings input[type="text"] {
+  padding: 10px;
+  background: #262626;
+  border: 1px solid #3a7bd5;
+  border-radius: 6px;
+  color: white;
+  outline: none;
+}
+
+.Meetings button {
+  padding: 10px 16px;
+  background: #3a7bd5;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.Meetings button:hover {
+  background: #2d69b0;
+  transform: translateY(-1px);
+}
